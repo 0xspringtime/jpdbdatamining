@@ -26,7 +26,7 @@ for page in pages:
     workbook = openpyxl.Workbook()
     sheet = workbook.active
 
-    sheet.append(['Title', 'Length (in words)', 'Unique words', 'Unique words (used once)', 'Unique words (used once %)', 'Unique kanji', 'Unique kanji (used once)', 'Unique kanji readings', 'Difficulty', 'MAL avg. rating', 'MAL rating count'])
+    sheet.append(['Title', 'Length (in words)', 'Unique words', 'Unique words (used once)', 'Unique words (used once %)', 'Unique kanji', 'Unique kanji (used once)', 'Unique kanji readings', 'Difficulty', 'Average sentence length', 'Characters', 'VNDB avg. rating', 'VNDB rating count'])
 
 
 
